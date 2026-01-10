@@ -20,7 +20,7 @@
 			title: 'Mondrian Transcription',
 			description:
 				'An open-source tool for efficiently transcribing movement from video or speculating about movement in space.',
-			href: '/software/mondrian',
+			href: '/software/mondrian-transcription',
 			image: '/images/software/mondrian.gif'
 		},
 		{

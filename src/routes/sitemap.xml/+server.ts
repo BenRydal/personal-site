@@ -20,7 +20,7 @@ const pages = [
 	'/publications',
 	'/software',
 	'/software/igs',
-	'/software/mondrian',
+	'/software/mondrian-transcription',
 	'/software/pointillizer',
 	'/software/transcript-explorer'
 ];

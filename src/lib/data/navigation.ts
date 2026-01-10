@@ -15,7 +15,7 @@ export const navItems = [
 		children: [
 			{ name: 'Transcript Explorer', href: '/software/transcript-explorer' },
 			{ name: 'Interaction Geography Slicer', href: '/software/igs' },
-			{ name: 'Mondrian Transcription', href: '/software/mondrian' },
+			{ name: 'Mondrian Transcription', href: '/software/mondrian-transcription' },
 			{ name: 'Pointillizer', href: '/software/pointillizer' }
 		]
 	},
