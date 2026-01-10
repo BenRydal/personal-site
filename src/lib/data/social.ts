@@ -3,7 +3,7 @@ export const socialLinks = [
 	{ name: 'GitHub', href: 'https://github.com/benrydal', icon: 'github', color: 'text-gray-800' },
 	{
 		name: 'LinkedIn',
-		href: 'https://linkedin.com/in/benrydal',
+		href: 'https://www.linkedin.com/in/benrydalshapiro/',
 		icon: 'linkedin',
 		color: 'text-[#0077B5]'
 	}
