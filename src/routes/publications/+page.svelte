@@ -311,6 +311,50 @@
 		name="description"
 		content="Academic publications by Ben Rydal Shapiro in learning sciences, HCI, and data visualization."
 	/>
+
+	<!-- Structured Data for Publications -->
+	{@html (() => {
+		const allPubs = categories.flatMap((cat) => cat.publications);
+		const uniquePubs = allPubs.filter(
+			(pub, index, self) => index === self.findIndex((p) => p.title === pub.title)
+		);
+		return `<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "CollectionPage",
+		"name": "Publications by Ben Rydal Shapiro",
+		"description": "Academic publications in learning sciences, HCI, and data visualization",
+		"url": "https://benrydal.com/publications",
+		"author": {
+			"@type": "Person",
+			"name": "Ben Rydal Shapiro",
+			"url": "https://benrydal.com"
+		},
+		"mainEntity": {
+			"@type": "ItemList",
+			"numberOfItems": ${uniquePubs.length},
+			"itemListElement": [
+				${uniquePubs
+					.map(
+						(pub, index) => `{
+					"@type": "ListItem",
+					"position": ${index + 1},
+					"item": {
+						"@type": "ScholarlyArticle",
+						"headline": "${pub.title.replace(/"/g, '\\"')}",
+						"author": "${pub.authors.replace(/"/g, '\\"')}",
+						"datePublished": "${pub.year}",
+						"publisher": "${pub.venue.replace(/"/g, '\\"')}"${pub.link ? `,
+						"url": "${pub.link}"` : ''}
+					}
+				}`
+					)
+					.join(',\n\t\t\t\t')}
+			]
+		}
+	}
+	</script>`;
+	})()}
 </svelte:head>
 
 <div class="max-w-6xl mx-auto px-6 py-16">
