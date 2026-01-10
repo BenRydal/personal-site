@@ -74,3 +74,24 @@ static/
 - Project pages link to external project sites where available
 - No tags on project/software cards (removed for simplicity)
 - Footer social icons use brand colors (GitHub: gray, LinkedIn: blue, Email: orange)
+
+## SEO
+
+The site includes comprehensive SEO optimizations:
+
+- **Meta tags:** Open Graph and Twitter Card meta tags in root layout
+- **Canonical URLs:** Dynamic canonical URLs based on current page path
+- **Sitemap:** Auto-generated at `/sitemap.xml` (prerendered)
+- **Structured Data:** JSON-LD schemas for Person (sitewide) and ScholarlyArticle (publications)
+- **Prerendering:** All pages are prerendered for faster crawling
+
+### Required: Social Share Image
+
+Create an OG image for social media previews:
+
+- **Path:** `static/images/og-image.png`
+- **Dimensions:** 1200 x 630 pixels
+- **Content:** Branded image with name, title, and visual identity
+- **Used by:** Facebook, LinkedIn, Twitter, and other platforms when sharing links
+
+The image is referenced in the layout's Open Graph and Twitter Card meta tags.

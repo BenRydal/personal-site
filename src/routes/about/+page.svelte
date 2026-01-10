@@ -21,7 +21,7 @@
 
 <div class="max-w-6xl mx-auto px-6 py-16">
 	<div class="grid lg:grid-cols-3 gap-12 lg:gap-16">
-		<div class="sticky top-24 self-start">
+		<div class="lg:sticky lg:top-24 self-start">
 			<div class="aspect-square bg-gray-100 rounded-2xl overflow-hidden">
 				<img
 					src="/images/about.jpg"
