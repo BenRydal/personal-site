@@ -1,0 +1,21 @@
+@import 'tailwindcss';
+
+@theme {
+	--font-sans: 'Inter', system-ui, sans-serif;
+	--font-serif: 'Playfair Display', Georgia, serif;
+
+	--color-primary: #1a1a2e;
+	--color-secondary: #16213e;
+	--color-accent: #0f3460;
+	--color-highlight: #e8630a;
+}
+
+@layer base {
+	html {
+		scroll-behavior: smooth;
+	}
+
+	body {
+		@apply font-sans text-gray-900 antialiased;
+	}
+}
