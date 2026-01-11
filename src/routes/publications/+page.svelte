@@ -63,6 +63,22 @@
 			name: 'Learning Sciences',
 			publications: [
 				{
+					authors: 'Shapiro, B.R., Silvis, D., & Hall, R.',
+					year: 2025,
+					title:
+						'Visualization as Theory and Experience: Interactive Qualitative Data Visualization for the Learning Sciences',
+					venue: 'Journal of the Learning Sciences',
+					link: 'https://doi.org/10.1080/10508406.2025.2537945'
+				},
+				{
+					authors: 'Tacelosky, K., Sue Kasun, G., Shapiro, B.R., Liao, Y.C., & Harris, K.',
+					year: 2025,
+					title:
+						'Exploring Critical AI Literacy in Language Education: A Case Study',
+					venue: 'Foreign Language Annals, 58(4), 966-994',
+					link: 'https://doi.org/10.1111/flan.70029'
+				},
+				{
 					authors: 'Shapiro, B.R., Horn, I.S., Gilliam, S., & Garner, B.',
 					year: 2024,
 					title:
@@ -72,7 +88,7 @@
 				},
 				{
 					authors: 'Shapiro, B.R., & Silvis, D.',
-					year: 2023,
+					year: 2025,
 					title:
 						'Animated Movements, Animating Methods: An Interaction Geography Approach to Space and Affect in Early Childhood Education',
 					venue: 'Journal of Early Childhood Literacy',
@@ -125,6 +141,35 @@
 		{
 			name: 'HCI / Computing Education',
 			publications: [
+				{
+					authors:
+						'Barkhuff, G., Johnson, W.G., Pruitt, I., Borela, R., Namani, V., Zegura, E., Bourgeois, A.G., & Shapiro, B.R.',
+					year: 2025,
+					title:
+						'Exploring the Humanistic Role of Computer Science Teaching Assistants Across Diverse Institutions',
+					venue:
+						'56th ACM Technical Symposium on Computer Science Education (SIGCSE TS 2025), Pittsburgh, PA, USA. ACM',
+					link: 'https://doi.org/10.1145/3641554.3701861'
+				},
+				{
+					authors:
+						'Karki, L., Priest, D., DuBose, J.G., Godfrey, Z., Rothschild, A., Shapiro, B.R., & DiSalvo, B.',
+					year: 2025,
+					title:
+						'A Window into DataWorks: Developing an Integrated Work-Training Curriculum for Novice Adults',
+					venue:
+						'56th ACM Technical Symposium on Computer Science Education (SIGCSE TS 2025), Pittsburgh, PA, USA. ACM',
+					link: 'https://doi.org/10.1145/3641554.3701826'
+				},
+				{
+					authors:
+						'DiSalvo, C., Rothschild, A., Schenck, L.L., Shapiro, B.R., & DiSalvo, B.',
+					year: 2024,
+					title:
+						'When Workers Want to Say No: A View into Critical Consciousness and Workplace Democracy in Data Work',
+					venue: 'Proceedings of the ACM on Human-Computer Interaction, 8(CSCW1), Article 156',
+					link: 'https://doi.org/10.1145/3637433'
+				},
 				{
 					authors: 'Doore, S., Shapiro, B.R., & Zegura, E.',
 					year: 2023,
