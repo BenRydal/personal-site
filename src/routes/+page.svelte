@@ -57,7 +57,7 @@
 			</h1>
 
 			<p class="mt-6 text-xl md:text-2xl text-gray-900 leading-relaxed drop-shadow-sm">
-				I design visualizations and tools to see learning, teaching, and data in new ways.
+				I design data visualization tools to see learning, teaching, and spatial interaction in new ways.
 			</p>
 
 			<p class="mt-6 text-lg text-gray-800 drop-shadow-sm">
