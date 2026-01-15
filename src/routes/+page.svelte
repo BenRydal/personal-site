@@ -8,7 +8,7 @@
 			description:
 				'Visualizing how people move and interact in physical spaces like museums and classrooms.',
 			href: '/projects/interaction-geography',
-			image: '/images/software/igs.gif'
+			video: '/videos/igs.mp4'
 		},
 		{
 			title: 'NYC Stop-and-Frisk',

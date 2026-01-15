@@ -45,8 +45,16 @@
 		</a>
 	</div>
 
-	<!-- Main screenshot -->
+	<!-- Main demo -->
 	<div class="mt-10">
-		<img src="/images/software/igs.gif" alt="IGS Interface" class="w-full rounded-xl shadow-lg" />
+		<video
+			autoplay
+			muted
+			loop
+			playsinline
+			class="w-full rounded-xl shadow-lg"
+		>
+			<source src="/videos/igs.mp4" type="video/mp4" />
+		</video>
 	</div>
 </div>

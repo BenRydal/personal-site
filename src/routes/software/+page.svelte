@@ -14,7 +14,7 @@
 			description:
 				'Interactive tool for exploring movement and interaction data in physical spaces like museums and classrooms.',
 			href: '/software/igs',
-			image: '/images/software/igs.gif'
+			video: '/videos/igs.mp4'
 		},
 		{
 			title: 'Mondrian Transcription',
