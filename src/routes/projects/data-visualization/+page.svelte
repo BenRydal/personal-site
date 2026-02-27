@@ -17,6 +17,13 @@
 			href: '/projects/stop-frisk'
 		},
 		{
+			name: 'Museum Interaction Geography',
+			description:
+				'See how 4 families explore 3 gallery spaces in a cultural heritage museum. Explore how they move, talk, and curate their experience through phones and social media.',
+			image: '/images/projects/museum-visualization.png',
+			href: '/projects/museum-interaction-geography'
+		},
+		{
 			name: 'Bettering Data',
 			description:
 				'A collaborative project telling the story of Atlanta arrests through visualization, partnering criminologists and educators with underrepresented youth in computing.',
