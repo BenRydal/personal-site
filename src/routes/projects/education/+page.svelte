@@ -3,6 +3,14 @@
 
 	const projects = [
 		{
+			name: 'Ethical AI for Educators',
+			description:
+				'A video series designed for students and educators at education schools, surveying AI tools, developments, and their ethical implications.',
+			image: '/images/projects/ethical-ai-education.png',
+			href: 'https://ai-edu-lab-org.github.io/video-series/',
+			linkType: 'external'
+		},
+		{
 			name: 'DataWorks',
 			description:
 				'A workplace training program providing data services (cleaning, analysis, annotation) while training young people from underrepresented communities in computing.',
@@ -41,7 +49,7 @@
 	<title>Education Projects | Ben Rydal Shapiro</title>
 	<meta
 		name="description"
-		content="Education research projects including DataWorks, Mapping Self in Society, and Learning How to Look & Listen."
+		content="Education research projects including DataWorks, Mapping Self in Society, Ethical AI for Educators, and Learning How to Look & Listen."
 	/>
 </svelte:head>
 

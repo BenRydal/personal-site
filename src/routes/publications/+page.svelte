@@ -73,8 +73,7 @@
 				{
 					authors: 'Tacelosky, K., Sue Kasun, G., Shapiro, B.R., Liao, Y.C., & Harris, K.',
 					year: 2025,
-					title:
-						'Exploring Critical AI Literacy in Language Education: A Case Study',
+					title: 'Exploring Critical AI Literacy in Language Education: A Case Study',
 					venue: 'Foreign Language Annals, 58(4), 966-994',
 					link: 'https://doi.org/10.1111/flan.70029'
 				},
@@ -162,8 +161,7 @@
 					link: 'https://doi.org/10.1145/3641554.3701826'
 				},
 				{
-					authors:
-						'DiSalvo, C., Rothschild, A., Schenck, L.L., Shapiro, B.R., & DiSalvo, B.',
+					authors: 'DiSalvo, C., Rothschild, A., Schenck, L.L., Shapiro, B.R., & DiSalvo, B.',
 					year: 2024,
 					title:
 						'When Workers Want to Say No: A View into Critical Consciousness and Workplace Democracy in Data Work',
@@ -389,8 +387,12 @@
 						"headline": "${pub.title.replace(/"/g, '\\"')}",
 						"author": "${pub.authors.replace(/"/g, '\\"')}",
 						"datePublished": "${pub.year}",
-						"publisher": "${pub.venue.replace(/"/g, '\\"')}"${pub.link ? `,
-						"url": "${pub.link}"` : ''}
+						"publisher": "${pub.venue.replace(/"/g, '\\"')}"${
+							pub.link
+								? `,
+						"url": "${pub.link}"`
+								: ''
+						}
 					}
 				}`
 					)
