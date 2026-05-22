@@ -23,6 +23,16 @@
 					link: 'https://doi.org/10.1080/10508406.2025.2537945'
 				},
 				{
+					authors:
+						'Barkhuff, G., Pruitt, I., Namani, V., Johnson, W.G., Bourgeois, A.G., Zegura, E., Borela, R., & Shapiro, B.R.',
+					year: 2026,
+					title:
+						'Situated Imaginaries: Designing AI Futures with Computer Science Teaching Assistants',
+					venue:
+						"Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems (CHI '26), Article 954, pp. 1-14. ACM",
+					link: 'https://doi.org/10.1145/3772318.3791874'
+				},
+				{
 					authors: 'Shapiro, B.R., Horn, I.S., Gilliam, S., & Garner, B.',
 					year: 2024,
 					title:
@@ -69,13 +79,6 @@
 						'Visualization as Theory and Experience: Interactive Qualitative Data Visualization for the Learning Sciences',
 					venue: 'Journal of the Learning Sciences',
 					link: 'https://doi.org/10.1080/10508406.2025.2537945'
-				},
-				{
-					authors: 'Tacelosky, K., Sue Kasun, G., Shapiro, B.R., Liao, Y.C., & Harris, K.',
-					year: 2025,
-					title: 'Exploring Critical AI Literacy in Language Education: A Case Study',
-					venue: 'Foreign Language Annals, 58(4), 966-994',
-					link: 'https://doi.org/10.1111/flan.70029'
 				},
 				{
 					authors: 'Shapiro, B.R., Horn, I.S., Gilliam, S., & Garner, B.',
@@ -138,8 +141,25 @@
 			]
 		},
 		{
-			name: 'HCI / Computing Education',
+			name: 'AI / Computing Education',
 			publications: [
+				{
+					authors:
+						'Barkhuff, G., Pruitt, I., Namani, V., Johnson, W.G., Bourgeois, A.G., Zegura, E., Borela, R., & Shapiro, B.R.',
+					year: 2026,
+					title:
+						'Situated Imaginaries: Designing AI Futures with Computer Science Teaching Assistants',
+					venue:
+						"Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems (CHI '26), Article 954, pp. 1-14. ACM",
+					link: 'https://doi.org/10.1145/3772318.3791874'
+				},
+				{
+					authors: 'Tacelosky, K., Sue Kasun, G., Shapiro, B.R., Liao, Y.C., & Harris, K.',
+					year: 2025,
+					title: 'Exploring Critical AI Literacy in Language Education: A Case Study',
+					venue: 'Foreign Language Annals, 58(4), 966-994',
+					link: 'https://doi.org/10.1111/flan.70029'
+				},
 				{
 					authors:
 						'Barkhuff, G., Johnson, W.G., Pruitt, I., Borela, R., Namani, V., Zegura, E., Bourgeois, A.G., & Shapiro, B.R.',
@@ -238,13 +258,6 @@
 					link: 'https://www.researchgate.net/publication/338789145_Re-Shape_A_Method_to_Teach_Data_Ethics_for_Data_Science_Education'
 				},
 				{
-					authors: 'Shapiro, B.R., & Hall, R.',
-					year: 2018,
-					title: 'Personal Curation in a Museum',
-					venue: 'Proceedings of the ACM on Human-Computer Interaction, Vol. 2, CSCW, Article 158',
-					link: 'https://www.researchgate.net/publication/328562352_Personal_Curation_in_a_Museum'
-				},
-				{
 					authors: 'Solomon, A., Guzdial, M., DiSalvo, B., & Shapiro, B.R.',
 					year: 2018,
 					title: 'Applying a Gesture Taxonomy to Introductory Computing Concepts',
@@ -255,7 +268,7 @@
 			]
 		},
 		{
-			name: 'Information Visualization',
+			name: 'HCI / Information Visualization',
 			publications: [
 				{
 					authors: 'Shapiro, B.R., Hall, R., Mathur, A. & Zhao, E.',
@@ -299,6 +312,13 @@
 					venue:
 						'Proceedings of the 13th International Conference on Computer Supported Collaborative Learning (CSCL) 2019, Volume 1, pp. 184-191. Lyon, France',
 					link: 'https://www.researchgate.net/profile/Ben-Shapiro-2/publication/333728005_Integrative_Visualization_Exploring_Data_Collected_in_Collaborative_Learning_Contexts/links/5d00fdcb92851c874c612702/Integrative-Visualization-Exploring-Data-Collected-in-Collaborative-Learning-Contexts.pdf'
+				},
+				{
+					authors: 'Shapiro, B.R., & Hall, R.',
+					year: 2018,
+					title: 'Personal Curation in a Museum',
+					venue: 'Proceedings of the ACM on Human-Computer Interaction, Vol. 2, CSCW, Article 158',
+					link: 'https://www.researchgate.net/publication/328562352_Personal_Curation_in_a_Museum'
 				},
 				{
 					authors: 'Shapiro, B.R., & Pearman II, F.A.',
@@ -352,7 +372,7 @@
 	<title>Publications | Ben Rydal Shapiro</title>
 	<meta
 		name="description"
-		content="Academic publications by Ben Rydal Shapiro in learning sciences, HCI, and data visualization."
+		content="Academic publications by Ben Rydal Shapiro in learning sciences, HCI, AI, computing education, and data visualization."
 	/>
 
 	<!-- Structured Data for Publications -->
@@ -366,7 +386,7 @@
 		"@context": "https://schema.org",
 		"@type": "CollectionPage",
 		"name": "Publications by Ben Rydal Shapiro",
-		"description": "Academic publications in learning sciences, HCI, and data visualization",
+		"description": "Academic publications in learning sciences, HCI, AI, computing education, and data visualization",
 		"url": "https://benrydal.com/publications",
 		"author": {
 			"@type": "Person",
@@ -408,7 +428,7 @@
 	<div class="max-w-3xl">
 		<h1 class="text-4xl font-bold text-gray-900">Publications</h1>
 		<p class="mt-4 text-lg text-gray-600">
-			Research spanning learning sciences, human-computer interaction, computing education, and
+			Research spanning learning sciences, human-computer interaction, AI, computing education, and
 			information visualization.
 		</p>
 	</div>
